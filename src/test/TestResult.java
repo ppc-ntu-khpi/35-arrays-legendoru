@@ -5,8 +5,8 @@ import domain.Exercise;
 public class TestResult {
 
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        int[] arr = {1, 2, 3, 4, 4, 5};
+        System.out.printf("The number that is repeated the most times: %d",
+                Exercise.Calculate(arr));      
     }
 }
